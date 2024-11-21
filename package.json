@@ -1,0 +1,16 @@
+{
+  "name": "server-api-gas",
+  "version": "1.0.0",
+  "description": "API SERVER PROJECT GAS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dennis Ronald Aguilar Mota",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "express-validator": "^7.2.0",
+    "mssql": "^11.0.1"
+  }
+}
