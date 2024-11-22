@@ -104,7 +104,7 @@ module.exports = class User {
             req.input('NombreCompleto', data.full_name);
             req.input('Correo', data.mail);
             req.input('Password', data.password);
-            req.input('ChangePassword', data.password);
+            req.input('ChangePassword', false);
             req.input('Roles', sql.TVP, table_roles);
             req.input('UsuarioMod', data.user_alt);
 
